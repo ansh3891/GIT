@@ -70,7 +70,7 @@ def main(stdscr):
 	start_screen(stdscr)
 	while True:
 		wpm_test(stdscr)
-		stdscr.addstr(2, 0, "You completed the text! Press any key to continue...")
+		stdscr.addstr(2, 0, "You completed the text! Press any key to continue/esc to exit...")
 		key = stdscr.getkey()
 		
 		if ord(key) == 27:
